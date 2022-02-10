@@ -25,7 +25,7 @@ import matplotlib.dates as mdates
 from matplotlib import rcParams
 
 
-path = "C:/Users/Besitzer/Desktop/Seminar_DataRetrieval"
+path = "Seminar_DataRetrieval"
 
 kitchen = np.load(os.path.join(path, 'resized_kitchen_first_images.npy'))
 bathroom = np.load(os.path.join(path, 'resized_bathroom_first_images.npy'))
@@ -115,11 +115,3 @@ msecnn = mean_squared_error(y_test, prediction)
 print("several performance metrics CNN:")
 print("mae:", maecnn)
 print("mse:", msecnn)
-
-
-
-        
-        
-        
-        
-        
