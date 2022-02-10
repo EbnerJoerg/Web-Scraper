@@ -17,8 +17,9 @@ import os
 import ast
 import numpy as np
 
-path_data = 'C:/Users/Besitzer/Desktop/Immoscout-Data/'
-path_images = 'C:/Users/Besitzer/Desktop/Immoscout-Images/'
+path_data = 'Immoscout-Data/'
+path_images = 'Immoscout-Images/'
+path_groundplan = 'Immoscout-GroundPlan/'
 
 columns = ['ExposeID', 'City', 'City2', 'City3', 'City4', 'Street', 'HouseNumber', 'ZipCode', 
            'TotalRent', 'BaseRent', 'Area', 'Rooms', 'Bedrooms', 'Bathrooms', 'Floor', 'MaxFloor', 'Title', 
@@ -183,7 +184,7 @@ def web_scraper_immoscout(exposeID, number):
                 img = Image.open(BytesIO(im.content))
                 img.save(path_groundplan + obj.ExposeID[0] + 'GPasImage' + ".jpg") 
             
-            #sleep for a couple of seconds
+            # sleep for a couple of seconds
             value = random()
             scaled_value = 1 + (value * 20)
             time.sleep(scaled_value) 
