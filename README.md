@@ -4,6 +4,7 @@ To measure the influence of appartment images, the information of thousends of e
 
 > **Requirements** <br>
 > pip install pdf2image
+> pip install tensorflow
 
 Workflow:
 1. Scrape the data with *1_Immoscout_WebScraper.py* by including the exposéID and the amount of cities <br>
