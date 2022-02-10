@@ -11,7 +11,7 @@ import matplotlib.pyplot as plt
 import geocoder
 
 
-path = 'C:/Users/Besitzer/Desktop/Seminar_DataRetrieval/'
+path = 'Seminar_DataRetrieval/'
 
 
 data = pd.read_pickle(path + 'Berlin_kit_bath_first_data.pkl')
@@ -211,20 +211,3 @@ for col in data.columns:
 
 
 data.to_pickle(path + 'Berlin_kit_bath_first_data_prepro.pkl')
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
