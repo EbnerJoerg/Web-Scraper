@@ -11,7 +11,7 @@ import numpy as np
 import cv2
 import pandas as pd
 
-path = 'C:/Users/Besitzer/Desktop/Seminar_DataRetrieval/'
+path = 'Seminar_DataRetrieval/'
 
 #first: manual selection of the kitchen and the bathroom images
 data = pd.read_pickle(path + 'Berlin_kit_bath_first_data_prepro.pkl')
