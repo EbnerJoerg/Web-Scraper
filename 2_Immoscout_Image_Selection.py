@@ -9,9 +9,9 @@ import pandas as pd
 import shutil, os
 
 #input and output path
-path_data = 'C:/Users/Besitzer/Desktop/Immoscout-Data/'
-path_images = 'C:/Users/Besitzer/Desktop/Immoscout-Images/'
-path_data_dest = 'C:/Users/Besitzer/Desktop/Seminar_DataRetrieval/'
+path_data = 'Immoscout-Data/'
+path_images = 'Immoscout-Images/'
+path_data_dest = 'Seminar_DataRetrieval/'
 
 #columns
 columns = ['ExposeID', 'City', 'City2', 'City3', 'City4', 'Street', 'HouseNumber', 'ZipCode', 
