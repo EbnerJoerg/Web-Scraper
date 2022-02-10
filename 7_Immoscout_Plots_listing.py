@@ -19,7 +19,7 @@ matplotlib.rcParams.update({'font.size': 14})
 matplotlib.rcParams["font.family"] = "cmr10"
 
 
-path = 'C:/Users/Besitzer/Desktop/Seminar_DataRetrieval/'
+path = 'Seminar_DataRetrieval/'
 
 #Missing Values
 data = pd.read_pickle(path + 'Berlin_kit_bath_first_data.pkl')
