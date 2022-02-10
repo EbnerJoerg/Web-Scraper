@@ -10,7 +10,7 @@ import numpy as np
 import cv2
 import pandas as pd
 
-path = 'C:/Users/Besitzer/Desktop/Seminar_DataRetrieval/'
+path = 'Seminar_DataRetrieval/'
 #manual selection
 
 data = pd.read_pickle(path + 'Berlin_data.pkl')
