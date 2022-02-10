@@ -3,7 +3,7 @@
 To measure the influence of appartment images, the information of thousends of exposés in Berlin were scraped inclusive the images and the groundplan.
 
 > **Requirements** <br>
-> pip install pdf2image
+> pip install pdf2image <br>
 > pip install tensorflow
 
 Workflow:
